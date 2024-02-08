@@ -17,4 +17,8 @@ function checkName(name) {
   }
 }
 
+console.log(checkName('Salman'));
+console.log(checkName('RAFEE'));
+console.log(checkName('Jhankar'));
 console.log(checkName(199));
+console.log(checkName(["Rashed"]));
