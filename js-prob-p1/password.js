@@ -4,7 +4,7 @@ function password(obj) {
   } else{
     return "invalid"
   }
-  }
+ }
 
 console.log(password({ name: "kolimuddin" , birthYear: 1999 , siteName: "google" }));
 console.log(password({ name: "rahat" , birthYear: 2002, siteName: "Facebook" }));
