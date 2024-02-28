@@ -6,13 +6,20 @@
 // Spread operator usually used in objects and arrays
 // When spread operator is used in an array to copy the initial array then, it will not copy the reference to the           original array, instead it will create a new array
 
-const numbers = [10,12,14,15,16,17,18,19,20,21,22,23]
-const student = {
-  name: "Osama",
-  age: 27,
-  
-}
+// const numbers = [10,12,14,15,16,17,18,19,20,21,22,23]
+// const student = {
+//   name: "Osama",
+//   age: 27,
+//   doubleAge: function(){
+//     return this.age * 2
+//   }
 
+// }
 
+// const {doubleAge } = student;
+// const age = doubleAge()
+// console.log(doubleAge());
 
+const {x, y, z} = {x: 1, y1: 2, z: 3};
 
+console.log(y);
